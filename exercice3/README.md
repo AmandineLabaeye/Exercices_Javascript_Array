@@ -1,31 +1,37 @@
 Exercice 3 :
 
-    - Afficher la taille de votre tableau en utilisant l'instruction qui convient dans le div "viewport"
+    - Afficher la taille de votre tableau en utilisant 
+    l'instruction qui convient dans le div "viewport"
 
 
 Théorie :
 
-    En javascript, les tableaux sont utilisés pour stocker de nombreuses valeurs dans une seule variable.
+    En javascript, les tableaux sont utilisés pour 
+    stocker de nombreuses valeurs dans une seule variable.
 
     On crée un tableau de cette façon :
 
     var tableau = ["element1","pomme","poire","salade","etc"];
 
-
-    Pour accéder aux éléments d'un tableau, on utilise l'index de l'élément auquel on souhaite accéder, l'index commence
+    Pour accéder aux éléments d'un tableau, on utilise 
+    l'index de l'élément auquel on souhaite accéder,
+     l'index commence
     à 0.
 
-    Pour accéder à la valeur "pomme" de mon tableau, j'utiliserais :
+    Pour accéder à la valeur "pomme" de mon tableau, 
+    j'utiliserais :
 
     var valeur = tableau[1];
 
 
 
-    Il est également possible de modifier l'entrée d'un tableau en utilisant son index, par exemple :
+    Il est également possible de modifier l'entrée 
+    d'un tableau en utilisant son index, par exemple :
 
     tableau[0] = "foo";
 
-    Mon tableau aura désormais les valeurs suivantes : ["foo","pomme","poire","salade","etc"]
+    Mon tableau aura désormais les valeurs suivantes : 
+    ["foo","pomme","poire","salade","etc"]
 
 
 

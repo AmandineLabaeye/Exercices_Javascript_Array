@@ -5,9 +5,8 @@
 
 
 var prenoms = ["pierre","paul","jacques"];
-    = "<Ton Prénom>";
-
-document.getElementById('viewport'). = ;
+prenoms[0] = "Amandine";
+document.getElementById('viewport').innerHTML= prenoms[0] ;
 
 
 
